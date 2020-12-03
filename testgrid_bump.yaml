@@ -1,0 +1,20 @@
+---
+gitHubLogin: "mpherman2"
+gitHubToken: "/usr/local/google/home/mpherman/token"
+gitName: "Mitchel"
+gitEmail: "mpherman@google.com"
+onCallAddress:
+skipPullRequest: false
+gitHubOrg: "mpherman2"
+gitHubRepo: "testgrid"
+remoteName: "testgrid"
+upstreamURLBase: "https://raw.githubusercontent.com/GoogleCloudPlatform/testgrid/master"
+includedConfigPaths:
+  - "."
+targetVersion: "latest"
+prefixes:
+  - name: "Testgrid"
+    prefix: "gcr.io/k8s-testgrid/"
+    repo: "https://github.com/GoogleCloudPlatform/testgrid"
+    summarise: true
+    consistentImages: true
