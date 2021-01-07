@@ -1,9 +1,9 @@
 ---
-gitHubLogin: "google-oss-robot"
-gitHubToken: "/etc/github-token/oauth"
-onCallAddress: "https://storage.googleapis.com/kubernetes-jenkins/oncall.json"
+gitHubLogin: "mpherman2"
+gitHubToken: "/usr/local/google/home/mpherman/token"
+onCallAddress:
 skipPullRequest: false
-gitHubOrg: "GoogleCloudPlatform"
+gitHubOrg: "mpherman2"
 gitHubRepo: "testgrid"
 remoteName: "testgrid"
 upstreamURLBase: "https://raw.githubusercontent.com/GoogleCloudPlatform/testgrid/master"
